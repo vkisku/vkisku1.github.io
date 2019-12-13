@@ -27,8 +27,121 @@ h1, h2 {
 body {
     position: relative; 
   }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  #home {padding-top:100px;height:500px;color: #fff; background-color: #1E88E5;}
+  #about {padding-top:100px;height:500px;color: #fff; background-color: #673ab7;}
+  #skills {padding-top:100px;height:500px;color: #fff; background-color: #ff9800;}
+  #experience {padding-top:100px;height:500px;color: #fff; background-color: #00bcd4;}
+  #portfolio {padding-top:100px;height:500px;color: #fff; background-color: #009688;}
+  #blog {padding-top:100px;height:500px;color: #fff; background-color: #009688;}
+  #contact {padding-top:100px;height:500px;color: #fff; background-color: #009688;}
+  
+  .navbar{
+	  background:#fff;
+	  
+  }
+  .navbar-toggle{
+	float:left !important;  
+  }
+  .navbar-inverse{
+	  border-color:#fff;
+  }
+  div.header{
+	  height:auto;
+  }
+  div.container{
+		overflow: hidden;
+		background-color: #fff;
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; /* Position the navbar at the top of the page */
+		width: 100%; /* Full width */
+		height:100px;
+  }
+  
+  .navbar.bg-primary {
+            border-radius: 0px;
+        !important;
+            background-color: #3c8e9f;;
+        !important;
+            margin-bottom: 0px;
+
+        }
+
+        .navbar {
+            border-radius: 0px;
+        !important;
+            background-color: #11758a;
+        !important;
+        }
+
+        .navbar {
+            border-radius: 0px;
+        !important;
+            background-color: #11758a;
+        !important;
+        }
+
+        .dropdown-menu.navbar-color > li > a {
+            color: #ffffff;
+            background-color: #36acdb;
+        }
+
+        .dropdown-menu.navbar-color > li > ul > li > a {
+            color: #ffffff;
+            background-color: #36acdb;
+        }
+
+        .dropdown-menu.navbar-color {
+            background-color: #38aedd;
+            opacity: 1;
+        }
+
+        .navbar-nav > li > .dropdown-menu {
+            left: auto;
+        }
+
+        ul.dropdown-menu.dropdown-menu-large.row.navbar-color > li > ul > li > a:hover {
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 5px;
+
+        }
+
+
+        .wrap {
+            width: 1000px;
+            height: 1000px;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            margin-top: 10px;
+        }
+
+        body {
+            padding-top: 0px;
+            height: 100%;
+            overflow-x: visible;
+            margin: 0px;
+            font-family: 'Roboto';
+
+        }
+
+        html {
+            height: 100%;
+        }
+
+
+        @font-face {
+            font-family: "Times New Roman", Times, serif;
+            src: url('/static/fonts/thewitcher-4.ttf') format('truetype')
+        }
+
+        
+        .blurred-container {
+            height: 100px !important;
+        }
+
+        .blurred-container > .img-src {
+            height: 100px !important;
+        }

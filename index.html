@@ -17,54 +17,115 @@
     </head>
  
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>                        
-			  </button>
-			  <a class="navbar-brand" href="#">WebSiteName</a>
-			</div>
-			<div>
-			  <div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav">
-				  <li><a href="#section1">Section 1</a></li>
-				  <li><a href="#section2">Section 2</a></li>
-				  <li><a href="#section3">Section 3</a></li>
-				  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-					  <li><a href="#section41">Section 4-1</a></li>
-					  <li><a href="#section42">Section 4-2</a></li>
-					</ul>
-				  </li>
-				</ul>
-			  </div>
-			</div>
-		  </div>
-		</nav>    
+		<div id="navbar-full">
+    <div id="navbar">
+        <!--
+         navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange
+         -->
+        <nav class="navbar navbar-ct-blue navbar-fixed-top navbar-transparent" role="navigation">
+            <div class="container tim-container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand navbar-brand-logo" href="/">
+                        <!--<div class="logo">
+                            <img src="{% static '/image/csir_logo.svg' %}" width="60px">
+                        </div>
+                        <div class="brand" style="width:200px;"> Development of Digital Mine Using Internet of Things
+                            (IoT).
+                        </div> -->
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <!--                        <li><img src="{% static '/image/csir_logo.svg' %}" height="80" width="80"/></li>-->
+                        <li class="active">
+                            <a href="#home">
+                                <i class="pe-7s-home"></i>
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#about">
+                                <i class="pe-7s-home"></i>
+                                <p>About</p>
+                            </a>
+                        </li>
+						<li class="">
+                            <a href="#skills">
+                                <i class="pe-7s-home"></i>
+                                <p>Skills</p>
+                            </a>
+                        </li>
+						<li class="">
+                            <a href="#experience">
+                                <i class="pe-7s-home"></i>
+                                <p>Experience</p>
+                            </a>
+                        </li>
+						<li class="">
+                            <a href="#portfolio">
+                                <i class="pe-7s-home"></i>
+                                <p>Portfolio</p>
+                            </a>
+                        </li>
+						<li class="">
+                            <a href="#blog">
+                                <i class="pe-7s-home"></i>
+                                <p>Blog</p>
+                            </a>
+                        </li>
+						<li class="">
+                            <a href="#contact">
+                                <i class="pe-7s-home"></i>
+                                <p>Contact</p>
+                            </a>
+                        </li>
 
-		<div id="section1" class="container-fluid">
-		  <h1>Section 1</h1>
+                    </ul>
+
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+				
+		<section>
+		<div id="home" class="container-fluid">
+		  <h1>Home</h1>
 		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 		</div>
-		<div id="section2" class="container-fluid">
-		  <h1>Section 2</h1>
+		<div id="about" class="container-fluid">
+		  <h1>About</h1>
 		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 		</div>
-		<div id="section3" class="container-fluid">
-		  <h1>Section 3</h1>
+		<div id="skills" class="container-fluid">
+		  <h1>Skills</h1>
 		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 		</div>
-		<div id="section41" class="container-fluid">
-		  <h1>Section 4 Submenu 1</h1>
+		<div id="experience" class="container-fluid">
+		  <h1>Experience</h1>
 		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 		</div>
-		<div id="section42" class="container-fluid">
-		  <h1>Section 4 Submenu 2</h1>
+		<div id="portfolio" class="container-fluid">
+		  <h1>Portfolio</h1>
 		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 		</div>
+		<div id="blog" class="container-fluid">
+		  <h1>Blog</h1>
+		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+		</div>
+		<div id="contact" class="container-fluid">
+		  <h1>Contact</h1>
+		  <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+		</div>
+		</section>
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
