@@ -184,9 +184,7 @@ body {
         margin-top: 20px;
         width: 500px;
     }
-	.navbar-collapse{
-		background-color:white;
-	}
+
     @media(max-width: 992px){
      .navbar .navbar-brand-logo .brand {
         margin-top: 20px;
