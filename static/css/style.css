@@ -7061,3 +7061,39 @@ h1, h2, h3, h4 {
         width: 100%;
     }
 }
+.floatlabel {
+  position:relative;
+}
+.floatlabel input {
+  -webkit-appearance: none;
+  color:#333;
+  padding:8px 12px;
+}
+.floatlabel textarea {
+  -webkit-appearance: none;
+  color:#333;
+  padding:10px 12px;
+}
+
+.floatlabel label.label {
+  position:absolute;
+  top:5px;
+  left:6px;
+  transition:all 0.2s ease-out;
+  background:#fff;
+  color:#999;
+  font-size:16px;
+  cursor:text;
+}
+
+.floatlabel label.label.floatlabel-shift {
+  top:-10px;
+  left:12px;
+  padding:0 4px;
+  font-size:14px;
+  color:#999;
+}
+.floatlabel label.label.floatlabel-active {
+  color:#0077c8;
+}
+
